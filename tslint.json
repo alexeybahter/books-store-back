@@ -1,0 +1,20 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "ordered-imports": false,
+    "arrow-parens": false,
+    "max-line-length": [true, 140],
+    "object-literal-sort-keys": false,
+    "trailing-comma": true,
+    "interface-name": false,
+    "no-console": {
+      "options": ["debug", "log", "time", "timeEnd", "trace"]
+    },
+    "quotemark": {
+      "options": ["double", "avoid-escape"]
+    }
+  },
+  "rulesDirectory": []
+}
